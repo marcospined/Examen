@@ -1,0 +1,10 @@
+Uncaught com.badlogic.gdx.utils.GdxRuntimeException exception in thread "LWJGL Application" in a method com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run() with signature ()V
+Exception in thread "LWJGL Application" com.badlogic.gdx.utils.GdxRuntimeException: Texture width and height must be powers of two: 200x100
+	at com.badlogic.gdx.graphics.GLTexture.uploadImageData(GLTexture.java:241) [jar:file:/home/alumno/Documents/Marcos/Examen_Marcos/libs/gdx.jar!/com/badlogic/gdx/graphics/GLTexture.class]
+	at com.badlogic.gdx.graphics.Texture.load(Texture.java:145) [jar:file:/home/alumno/Documents/Marcos/Examen_Marcos/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.badlogic.gdx.graphics.Texture.<init>(Texture.java:133) [jar:file:/home/alumno/Documents/Marcos/Examen_Marcos/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.badlogic.gdx.graphics.Texture.<init>(Texture.java:112) [jar:file:/home/alumno/Documents/Marcos/Examen_Marcos/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.badlogic.gdx.graphics.Texture.<init>(Texture.java:104) [jar:file:/home/alumno/Documents/Marcos/Examen_Marcos/libs/gdx.jar!/com/badlogic/gdx/graphics/Texture.class]
+	at com.me.mygdxgame.MyGdxGame.create(MyGdxGame.java:34) [file:/home/alumno/Documents/Marcos/Examen_Marcos/bin/com/me/mygdxgame/MyGdxGame.class]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication.mainLoop(LwjglApplication.java:137) [jar:file:/home/alumno/Documents/Marcos/Examen_Marcos-desktop/libs/gdx-backend-lwjgl.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.class]
+	at com.badlogic.gdx.backends.lwjgl.LwjglApplication$1.run(LwjglApplication.java:115) [jar:file:/home/alumno/Documents/Marcos/Examen_Marcos-desktop/libs/gdx-backend-lwjgl.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication$1.class]
